@@ -13,6 +13,7 @@
 		C6656B452B87C2D70057C6B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6656B432B87C2D70057C6B5 /* Main.storyboard */; };
 		C6656B472B87C2D80057C6B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6656B462B87C2D80057C6B5 /* Assets.xcassets */; };
 		C6656B4A2B87C2D80057C6B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6656B482B87C2D80057C6B5 /* LaunchScreen.storyboard */; };
+		C6656B522B87C3520057C6B5 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6656B512B87C3520057C6B5 /* loginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C6656B462B87C2D80057C6B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6656B492B87C2D80057C6B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6656B4B2B87C2D80057C6B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6656B512B87C3520057C6B5 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				C6656B3D2B87C2D70057C6B5 /* AppDelegate.swift */,
 				C6656B3F2B87C2D70057C6B5 /* SceneDelegate.swift */,
 				C6656B412B87C2D70057C6B5 /* ViewController.swift */,
+				C6656B512B87C3520057C6B5 /* loginViewController.swift */,
 				C6656B432B87C2D70057C6B5 /* Main.storyboard */,
 				C6656B462B87C2D80057C6B5 /* Assets.xcassets */,
 				C6656B482B87C2D80057C6B5 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6656B522B87C3520057C6B5 /* loginViewController.swift in Sources */,
 				C6656B422B87C2D70057C6B5 /* ViewController.swift in Sources */,
 				C6656B3E2B87C2D70057C6B5 /* AppDelegate.swift in Sources */,
 				C6656B402B87C2D70057C6B5 /* SceneDelegate.swift in Sources */,

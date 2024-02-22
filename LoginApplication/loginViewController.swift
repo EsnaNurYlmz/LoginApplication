@@ -9,21 +9,24 @@ import UIKit
 
 class loginViewController: UIViewController {
 
+    @IBOutlet weak var label: UILabel!
+     
+    let d = UserDefaults.standard
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        let usN = d.string(forKey: "userName") ?? "No Name"
+        label.text = usN
+        
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func logOut(_ sender: Any) {
+        
+        d.removeObject(forKey: "userName")
+        d.removeObject(forKey: "password")
+         exit(-1)
     }
-    */
-
+    
 }
